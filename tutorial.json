@@ -1,0 +1,67 @@
+{
+  "id": "1",
+  "version": "0.1.0",
+  "summary": {
+    "title": "Introduction",
+    "description": "This is an introduction to your tutorial. It will show up on the first page when your tutorial is started."
+  },
+  "config": {
+    "testRunner": {
+      "command": "python -m tap",
+      "args": {
+        "filter": "--grep",
+        "tap": "--tap-stream"
+      },
+      "directory": "coderoad"
+    },
+    "setup": {
+      "commands": [
+        "cd coderoad && npm install"
+      ],
+      "commits": [
+        "65785c135534093f83455ef3e28ff58d8aa943f5"
+      ]
+    },
+    "repo": {
+      "uri": "https://github.com/GothicEU/python-textbox",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Create index.html",
+      "summary": "Optional summary for Level 1",
+      "content": "Here's where you can put a description, examples, and instructions for the lesson.",
+      "steps": [
+        {
+          "id": "1.1",
+          "setup": {
+            "files": [
+              "textbox.py"
+            ],
+            "commits": [
+              "ee62c2760748d671fb5731727a5adeecfd090592"
+            ]
+          },
+          "content": "This is the test text. Create an `index.html` file to pass this lesson.",
+          "hints": [
+            "This is a hint to help people through the test",
+            "Second hint for 1.1, don't worry if the hints don't show up yet"
+          ],
+          "solution": {
+            "commits": [
+              "4f89f2047e282dc50f6f2fbf2071edca6e713831"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
