@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": {
     "title": "Introduction",
-    "description": "This is an introduction to your tutorial. It will show up on the first page when your tutorial is started."
+    "description": "This is test tutorial for gui."
   },
   "config": {
     "testRunner": {
@@ -36,9 +36,9 @@
   "levels": [
     {
       "id": "1",
-      "title": "Create index.html",
-      "summary": "Optional summary for Level 1",
-      "content": "Here's where you can put a description, examples, and instructions for the lesson.",
+      "title": "Create textbox window",
+      "summary": "Copy the code from the https://github.com/GothicEU/python-textbox/blob/v0.1.0...",
+      "content": "Copy the code from the https://github.com/GothicEU/python-textbox/blob/v0.1.0/textbox.py to the textbox.py file.",
       "steps": [
         {
           "id": "1.1",
@@ -50,10 +50,9 @@
               "ee62c2760748d671fb5731727a5adeecfd090592"
             ]
           },
-          "content": "This is the test text. Create an `index.html` file to pass this lesson.",
+          "content": "Copy the code from the https://github.com/GothicEU/python-textbox/blob/v0.1.0/textbox.py to the textbox.py file.",
           "hints": [
-            "This is a hint to help people through the test",
-            "Second hint for 1.1, don't worry if the hints don't show up yet"
+            "This is a hint."
           ],
           "solution": {
             "commits": [
