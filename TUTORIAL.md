@@ -12,4 +12,4 @@ Copy the code from the https://github.com/GothicEU/python-textbox/blob/v0.1.0/te
 
 #### HINTS
 
-- This is a hint.
+- You might have to create a "textbox.py" file in the main tutorial folder.
