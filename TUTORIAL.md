@@ -1,14 +1,14 @@
 # Introduction
 
-This is test tutorial.
+This is test tutorial for gui.
 
-## 1. Create variable "var"
+## 1. Create textbox window
 
-Create a variable called "var" that will have value equal to 0.
+Copy the code from the https://github.com/GothicEU/python-textbox/blob/v0.1.0/textbox.py to the textbox.py file.
 
 ### 1.1 Level 1 Step 1
 
-Type in "var = 0" in the task.py file.
+Copy the code from the https://github.com/GothicEU/python-textbox/blob/v0.1.0/textbox.py to the textbox.py file.
 
 #### HINTS
 
